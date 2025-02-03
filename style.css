@@ -2,4 +2,40 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+
+.first {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .right-header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.hero-text-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text-second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
