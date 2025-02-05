@@ -8,6 +8,10 @@ body {
 
 .first {
     background-color: #1F2937;
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 }
 
 .header {
@@ -19,7 +23,7 @@ body {
 .header .right-header ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
 }
 
 .hero-text-main{
@@ -38,4 +42,32 @@ body {
     color: #F9FAF8;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+
+.advertisement {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advertisement .text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+
+}
+
+.information-header-text {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: center;
+}
 
