@@ -69,5 +69,18 @@ button {
     color:#1F2937;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 100px;
+    width: 100vw;
+}
+
+.card {
+    flex: 1;
 }
 
