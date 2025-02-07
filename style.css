@@ -77,10 +77,35 @@ button {
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 100px;
-    width: 100vw;
+    justify-content: space-between;
 }
 
 .card {
     flex: 1;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+img { 
+    max-width: 15vw;
+    max-height: 200px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    color: black;
+    font-weight: bold;
+    text-align: end;
+}
