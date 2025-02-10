@@ -37,7 +37,7 @@ body {
     color: #E5E7EB;
 }
 
-.left-header {
+.header-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -91,6 +91,7 @@ button {
 img { 
     max-width: 15vw;
     max-height: 200px;
+    min-height: 200px;
 }
 
 .quote-section {
@@ -102,10 +103,20 @@ img {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin-bottom: 10px;
 }
 
 .author {
     color: black;
     font-weight: bold;
     text-align: end;
+    font-size: 30px;
+}
+
+.subscribe {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+    margin: 50px 100px;
+    color: ;
 }
