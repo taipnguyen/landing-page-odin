@@ -40,6 +40,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 button {
@@ -118,5 +119,27 @@ img {
     border: 1px solid #3882F6;
     border-radius: 4px;
     margin: 50px 100px;
-    color: ;
+    color: #F9FAF8;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-subscribe {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+}
+
+.text-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px
 }
